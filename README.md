@@ -4,7 +4,7 @@
 > **Event:** Black Hat MEA 2023, Riyadh  
 > **Topic:** Advanced Machine Pivoting Using DCOM  
 > **Twitter:** [@Fsalabduljabbar](https://x.com/Fsalabduljabbar)  
-> **LinkedIn:** [faisal-alabduljabbar](https://www.linkedin.com/in/faisal-alabduljabbar)
+> **LinkedIn:** [faisal-alabduljabbar](https://www.linkedin.com/in/faisal-alabduljabbar-%F0%9F%87%B8%F0%9F%87%A6-24309013a/)
 
 ---
 
@@ -60,4 +60,4 @@ The client will:
 This repository is for educational and authorized security research only. Do **not** use these techniques on any system without explicit permission.
 
 Feel free to contribute improvements or questions.  
-For collaboration or consulting, contact me via [LinkedIn](https://www.linkedin.com/in/faisal-alabduljabbar).
+For collaboration or consulting, contact me via [LinkedIn](https://www.linkedin.com/in/faisal-alabduljabbar-%F0%9F%87%B8%F0%9F%87%A6-24309013a/).
