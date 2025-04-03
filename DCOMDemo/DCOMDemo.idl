@@ -1,0 +1,39 @@
+// DCOMDemo.idl : IDL source for DCOMDemo
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DCOMDemo.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(a68e05e3-4094-4c62-a050-b75146882d38),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICOMServer : IDispatch
+{
+
+	HRESULT COMSend([in] BSTR SendBuffer, [in] int SendLength, [out] int* RicvLength, [out, retval] BSTR* DataRicv);
+
+};
+[
+	uuid(4f0d5b9a-f7cc-4c28-a637-a3aa67a93793),
+	version(1.0),
+]
+library DCOMDemoLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(fb428c4d-a49d-436f-bdf1-05983a7b441e)
+	]
+	coclass COMServer
+	{
+		[default] interface ICOMServer;
+	};
+};
+
+import "shobjidl.idl";
