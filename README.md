@@ -10,7 +10,7 @@
 
 ## 🧠 Summary
 
-This repository includes a full **proof-of-concept (PoC)** that demonstrates how adversaries can abuse **Distributed Component Object Model (DCOM)** for stealthy **lateral movement** across Windows environments.  DCOM payload—just like what an SMB payload does.
+This repository includes a full **proof-of-concept (PoC)** that demonstrates how adversaries can abuse **Distributed Component Object Model (DCOM)** for stealthy **lateral movement** across Windows environments. The DCOM payload functions similarly to an SMB payload.
 
 The code was demonstrated during my session at **Black Hat MEA 2023**.
 
