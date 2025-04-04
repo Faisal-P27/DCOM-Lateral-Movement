@@ -10,7 +10,7 @@
 
 ## 🧠 Summary
 
-This repository includes a full **proof-of-concept (PoC)** that demonstrates how adversaries can abuse **Distributed Component Object Model (DCOM)** for stealthy **lateral movement** across Windows environments. The technique allows execution of remote commands and file transfers without dropping traditional tools, and takes advantage of legitimate Windows COM infrastructure.
+This repository includes a full **proof-of-concept (PoC)** that demonstrates how adversaries can abuse **Distributed Component Object Model (DCOM)** for stealthy **lateral movement** across Windows environments.  DCOM payload—just like what an SMB payload does.
 
 The code was demonstrated during my session at **Black Hat MEA 2023**.
 
