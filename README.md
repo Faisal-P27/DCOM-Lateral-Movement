@@ -21,7 +21,7 @@ The code was demonstrated during my session at **Black Hat MEA 2023**.
 ### ✅ COM Server (Out-of-Proc EXE)
 
 - Hosts a COM interface exposed via DCOM on port `135`.
-- Accepts requests from remote clients to execute commands (e.g., `systeminfo`) or copy files.
+- Accepts requests from remote clients to execute commands (e.g., `systeminfo`).
 - Writes output to disk (`C:\Windows\Temp\logs.txt`).
 
 ### ✅ COM Client
